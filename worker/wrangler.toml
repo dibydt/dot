@@ -1,0 +1,11 @@
+name = "dot-form"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://testers.devtem.org"
+TO_EMAIL = "you@example.com"
+FROM_EMAIL = "noreply@devtem.org"
+FROM_NAME = "DOT Community"
+
+# Add the key with: npx wrangler secret put BREVO_API_KEY
